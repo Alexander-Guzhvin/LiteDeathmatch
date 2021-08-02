@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        litedeathmatch.ru
+    Author:         Pavel Shaposhnikov
+    Telegram:       https://t.me/pavelfers
+================================== -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite DeathMatch</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/donate.css">
+    <link rel="icon" href="img/icons/logo.svg" type="image/x-icon">
+</head>
+<body id="body" class="body">
+    
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="img/icons/logo.svg" alt="Logo" class="logo">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://forum.diamondrp.ru" class="nav__link">Форум</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://vk.com/litedeathmatch" target="_blank" class="nav__link">Мы Вконтакте</a>
+                        </li>
+                    </ul>
+                </nav> <!-- /.nav -->
+                <div class="mobile__nav-wrapper">
+                    <button id="burger" class="open__mobile">
+                        <span class="burger"></span>
+                        <span class="burger-text">Меню</span>
+                    </button>
+                    <nav class="mobile-nav" id="mobile-nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./index.html" class="nav__link">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="https://forum.diamondrp.ru" class="nav__link">Форум</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="https://vk.com/litedeathmatch" target="_blank" class="nav__link">Мы ВКонтакте</a>
+                            </li>
+                        </ul>
+                    </nav> <!-- /.mobile-nav -->
+                </div> <!-- /.mobile__nav-wrapper -->
+                <a href="./donate.html" class="btn">Пополнить счет</a>
+            </div> <!-- /.header__inner -->
+        </div> <!-- /.container -->
+    </header>
+    <!--========== \END HEADER ==========-->
+
+    <main class="main">
+
+        <!-- Секция "Пополнение счета" -->
+        <section class="payment">
+            <div class="container">
+                <div class="payment__inner">
+                    <div class="payment__content">
+                        <div class="payment__buttons">
+                            <a href="./donate.html" class="payment__btn payment__btn-active"><h4>Пополнение счета</h4></a>
+                            <a href="./donate-admin.html" class="payment__btn"><h4>Покупка админки</h4></a>
+                        </div>
+                        <form class="payment__form">
+                            <input type="text" class="payment__input" placeholder="Введите ваш ник нейм">
+                            <input type="number" class="payment__input" placeholder="Введите сумму пополнения">
+                            <a href="#" class="payment__form-btn btn">Перейти к оплате</a>
+                            <div class="form__agreement">
+                                <input type="checkbox" id="form__accept">
+                                <label for="form__accept">Принимаю условия лицензионного <a href="userf/public-offerta.pdf" target="_blank">соглашения</a> и <a href="userf/public-offerta.pdf" target="_blank">чего то еще</a></label>
+                              </div>
+                        </form>
+                    </div> <!-- /.payment__content -->
+                </div> <!-- /.payment__inner -->
+            </div> <!-- /.container -->
+        </section>
+
+        <!-- Секция "Особенности ВИП пользователя" -->
+        <section class="vip">
+            <div class="container">
+                <div class="vip__inner">
+                    <h2 class="title">Особенности <span>VIP пользователя</span></h2>
+                    <div class="vip__content">
+                        <div class="vip__item" data-aos="fade-up" data-aos-duration="700">
+                            <div class="vip__item-content">
+                                <h3 class="vip__item-title">Преимущества</h3>
+                                <p class="vip__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis urna proin netus quam.</p>
+                            </div>
+                        </div>
+                        <div class="vip__item" data-aos="fade-up" data-aos-duration="1200">
+                            <div class="vip__item-content">
+                                <h3 class="vip__item-title">Преимущества</h3>
+                                <p class="vip__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis urna proin netus quam.</p>
+                            </div>
+                        </div>
+                        <div class="vip__item" data-aos="fade-up" data-aos-duration="1700">
+                            <div class="vip__item-content">
+                                <h3 class="vip__item-title">Преимущества</h3>
+                                <p class="vip__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis urna proin netus quam.</p>
+                            </div>
+                        </div>
+                    </div> <!-- /.vip__content -->
+                </div> <!-- /.vip__inner -->
+            </div> <!-- /.container -->
+        </section>
+
+        
+        <!-- Секция "Что можно купить" -->
+        <section class="price">
+            <div class="container">
+                <div class="price__inner">
+                    <h2 class="title">Что можно <span>купить</span></h2>
+                    <div class="price__content">
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__money.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__car.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__ticket.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__pass.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__crown.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__speed.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__car2.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                        <div class="price__item" data-aos="zoom-out">
+                            <img src="img/price/AnyConv.com__gun.webp" alt="Car" class="price__img">
+                            <h3 class="price__item-name">Что можно купить</h3>
+                        </div>
+                    </div> <!-- /.price__content -->
+                </div> <!-- /.price__inner -->
+            </div> <!-- /.container -->
+        </section>
+
+    </main>
+
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <nav class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link" data-scroll="#guide">Как начать игру</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="https://forum.diamondrp.ru" class="nav__link">Форум</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="https://vk.com/eugeneloveyou" target="_blank" class="nav__link">Мы ВКонтакте</a>
+                            </li>
+                        </ul>
+                    </nav> <!-- /.nav -->
+                    <a href="index.html" class="footer__logo">
+                        <img src="img/icons/logo.svg" alt="Logo">
+                    </a>
+                    <a href="userf/public-offerta.pdf" target="_blank" class="nav__link">Договор офферты</a>
+                </div> <!-- /.footer__inner -->
+            </div> <!-- /.container -->
+        </footer>
+        <!--========== \END FOOTER ==========-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Jquery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Jquery circle progress library for section monitoring -->
+    <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+    <!-- Main js file connection -->
+    <script src="js/main.js"></script>
+    <!-- AOS Animation on Scroll CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS Animation on Scroll Initialize-->
+    <script> AOS.init(); </script>
+</body>
+</html>
